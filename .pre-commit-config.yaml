@@ -78,6 +78,7 @@ repos:
       - id: check-flutter-code
         name: Flutter Linter
         entry: flutter analyze
+        language: system
         types: [dart]
         pass_filenames: false
         stages: [commit]
